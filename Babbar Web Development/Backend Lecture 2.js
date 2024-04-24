@@ -182,7 +182,7 @@ module.exports = mongoose.model("Todo", todoSchema);
 
 //create createTodo.js 
 
-const Todo = require("../models/Todo");
+const Todo = require("../models/todo");
 
 exports.createTodo = async(req, res) => {
     try{
